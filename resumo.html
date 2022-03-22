@@ -1,0 +1,49 @@
+RESUMO
+
+<meta charset="UTF-8">
+//comando necessário para que o navegador saiba traduzir a linguagem para a UTF-8
+
+<script>
+//abertura da parte em linguagem javascript	
+    
+
+var vitorias = prompt("Entre com o número de vitórias: ");
+
+//o que está entre " " aspas, se chama string ou texto
+//var é uma variável
+//vitorias é o nome da variavel
+// prompt é uma função para abrir uma tela que vai receber os dados do usuário, sendo necessário abrir e fechar parênteses ()
+
+function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+//criação da função "mostra" que vai realizar os comandos contidos na função
+//document.write vai exibir o que estiver sendo recebido no parâmetro frase
+//pulaLinha está chamando a função pulaLinha 
+
+while(anoCopa <= 2022){ //while é "enquanto a variavel x for isso continue executando"
+
+    mostra("Teve copa em " + anoCopa);
+    anoCopa = anoCopa + 4;
+        
+parseInt(prompt("Entre com a data limite")) // o parseInt transforma a string recebida em número
+
+    var numero1 = parseInt(prompt("Entre o primeiro número: "));
+    //var numero2 = parseInt(prompt("Entre com o segundo número"));
+    //var contador = 1;
+
+    for(numero1 = 1; numero1 <= 10; numero1 = numero1 + 1){
+// função for, numero1 recebe o valor 1 e executa enquanto numero 1 for menor ou igual a 10, faz numero 1 recebe numero1 +1 ao final da execução, até chegar no 10
+
+        mostra(7 * numero1); 
+
+}
+
+</script>
+//fechamento da parte em linguagem javascript	
+
+
+{ //as chaves indicam que o item deve ter mais de uma instrução, significa um bloco de instruções
+
+}

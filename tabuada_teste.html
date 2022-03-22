@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+ 
+
+    function pulaLinha(){
+
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    var numero1 = parseInt(prompt("Entre o primeiro número: "));
+    //var numero2 = parseInt(prompt("Entre com o segundo número"));
+    //var contador = 1;
+
+
+      for(numero1 = 1; numero1 <= 10; numero1 = numero1 + 1){
+            //variavel, condição e o critério de incremento
+        mostra(numero1 * numero1);     
+
+    }
+
+    alert("FIM");
+
+</script>
+
